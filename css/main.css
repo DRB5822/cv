@@ -1,0 +1,172 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #cd7f32;
+  margin: 0 20px;
+}
+
+/*** Header Table ***/
+
+.header-table td:nth-child(2) {
+  padding-left: 20px;
+}
+
+
+.headshot {
+  border-radius: 50%;
+  width: 175px;
+}
+
+hr {
+  background-color: #c0c0c0;
+  border-style: none; 
+  height: 2px;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+ .inner-list {
+   list-style: none;
+ }
+
+.hobbies a {
+    text-decoration: none;
+}
+
+.hobbies a:hover {
+  color: #ca0d0d;
+}
+
+/*** Career Table ***/
+.career-table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 800px;
+}
+
+.spacer {
+  height: 35px;
+}
+
+.primary-col1 {
+  width: 30%;
+}
+
+table caption {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+th, td {
+  line-height: 1.1rem;
+  padding: 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.company {
+  color: #000000;
+  font-family: Arial, sans-serif;
+  font-size: 1.0rem;
+  font-weight: 700;
+  padding-bottom: 7px;
+  /*padding-right: 70px;*/
+}
+
+.job-time {
+  color: #3b3b3b;
+  font-family: Arial, sans-serif;
+  font-size: .8rem;
+  font-weight: 400;
+  /*padding-right: 70px;*/
+}
+
+.job-title {
+  color: #000000;
+  font-family: Arial, sans-serif;
+  font-size: .8rem;
+  font-weight: 700;
+  padding-bottom: 7px;
+  padding-right: 70px;
+}
+
+.job-description {
+  color: #3b3b3b;
+  font-family: Arial, sans-serif;
+  font-size: .8rem;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.col1 {
+  /*background-color: #e97a7a;*/
+  width: 100%;
+}
+
+.col2 {
+  padding-right: 75px;
+}
+
+.company-info {
+  color: #046491 
+}
+
+.resume-icons {
+  margin-right: 5px;
+}
+
+/*** Skills Table ***/
+
+.skills-list > p, .skills-stars > p {
+  margin: 10px 0 5px;
+  padding: 0;
+}
+
+.skills-list > p {
+  padding-right: 60px;
+}
+
+.skills-list.two > p {
+  padding-left: 20px;
+}
+
+.skills-stars > p {
+  padding-right: 20px;
+  font-size: .8rem;
+}
+
+.vertical-spacer {
+  background-color: #c0c0c0;
+  width: 3px;
+}
+
+/*** Contact Form Page ***/
+
+
+.contact-form {
+  border: 2px solid #ff0000;
+  margin: 40px 0 40px;
+  padding: 25px 25px 0;
+  width: 600px;
+}
+
+.contact-form > input {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+#yourname, #emailaddress {
+  width: 250px;
+}
+
+#submit {
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 25px;
+  width: 100px;
+  
+}
