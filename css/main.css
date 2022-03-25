@@ -19,6 +19,10 @@ body {
   width: 175px;
 }
 
+h1 {
+  font-family: 'winter_in_alaskaregular';
+}
+
 hr {
   background-color: #c0c0c0;
   border-style: none; 
