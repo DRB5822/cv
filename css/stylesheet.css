@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'winter_in_alaskaregular';
-    src: url('../winterinalaska-webfont.woff2') format('woff2'),
-         url('../winterinalaska-webfont.woff') format('woff');
+    src: url('winterinalaska-webfont.woff2') format('woff2'),
+         url('winterinalaska-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
